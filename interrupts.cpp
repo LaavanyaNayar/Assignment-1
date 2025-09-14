@@ -1,7 +1,7 @@
 /**
  *
  * @file interrupts.cpp
- * @author Sasisekhar Govind
+ * @author Laavanya Nayar
  *
  */
 
@@ -19,7 +19,9 @@ int main(int argc, char** argv) {
     std::string execution;  //!< string to accumulate the execution output
 
     /******************ADD YOUR VARIABLES HERE*************************/
-
+    int current_time = 0; // to keep track of current time
+    int contect_save_time = 10; // context save time value
+    int isr_activity_time= 40; // ISR exuction time
 
 
     /******************************************************************/
@@ -29,9 +31,15 @@ int main(int argc, char** argv) {
         auto [activity, duration_intr] = parse_trace(trace);
 
         /******************ADD YOUR SIMULATION CODE HERE*************************/
-
-
-
+	
+	// CPU Burst Handler 
+	if (activity == "CPU"){
+		// store execution event
+		execution += std::to_string(current_time) +","+std::to_string(duration_intr)+ ", CPU burst\n";
+		// update time
+		current_time += duration_intr;
+	}
+	
         /************************************************************************/
 
     }

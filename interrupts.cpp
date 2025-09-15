@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
 
     /******************ADD YOUR VARIABLES HERE*************************/
     int current_time = 0; // to keep track of current time
-    int contect_save_time = 10; // context save time value
+    int context_save_time = 10; // context save time value
     int isr_activity_time= 40; // ISR exuction time
 
 

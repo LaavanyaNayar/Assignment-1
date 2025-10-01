@@ -5,7 +5,7 @@
  *
  */
 
-#include<interrupts.hpp>
+#include <interrupts.hpp>
 
 int main(int argc, char** argv) {
 
@@ -39,6 +39,7 @@ int main(int argc, char** argv) {
 		// update time
 		current_time += duration_intr;
 	}
+	
 	
         /************************************************************************/
 

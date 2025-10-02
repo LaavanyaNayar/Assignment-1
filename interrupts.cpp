@@ -35,7 +35,7 @@ int main(int argc, char** argv) {
 	// CPU Burst Handler 
 	if (activity == "CPU"){
 		// store execution event
-		execution += std::to_string(current_time) +","+std::to_string(duration_intr)+ ", CPU burst\n";
+		execution += std::to_string(current_time) +", "+std::to_string(duration_intr)+ ", CPU burst\n";
 		// update time
 		current_time += duration_intr;
 	}
@@ -44,20 +44,21 @@ int main(int argc, char** argv) {
 	
 	auto [exec_boiler, updated_time] = intr_boilerplate( current_time, duration_intr, context_save_time, vectors);
 	execution += exec_boiler;
-	current_time += updated_time;
+	current_time = updated_time;
 	
 	execution += std::to_string(current_time) + ", 1, obtain ISR address\n";
 	current_time++;
 	
-	// todo: add more steps for ISR BODY
+	//todo: add more steps for ISR BODY
 	execution+= std::to_string(current_time) +", " + std::to_string(isr_activity_time) + ", ISR body\n";
 	current_time += isr_activity_time;
-	execution += std:: to_string(current_time)+ ", 1, IRET\n" 	;
+	execution += std:: to_string(current_time)+ ", 1, IRET\n";
 	current_time++;
+	
+	
 	}
 	
 	
-	// 
 	
 	
 	

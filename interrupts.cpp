@@ -42,16 +42,36 @@ int main(int argc, char** argv) {
 	// SYSCALL Hamdler
 	else if (activity == "SYSCALL") {
 	
-	auto [exec_boiler, updated_time] = intr_boilerplate( current_time, duration_intr, context_save_time, vectors);
+	auto [exec_boiler, updated_time] = intr_boilerplate(current_time,duration_intr,context_save_time,vectors);
 	execution += exec_boiler;
 	current_time = updated_time;
 	
-	execution += std::to_string(current_time) + ", 1, obtain ISR address\n";
+		
+	execution += std::to_string(current_time) + ", 1, Obtain ISR address\n";
 	current_time++;
 	
-	//todo: add more steps for ISR BODY
-	execution+= std::to_string(current_time) +", " + std::to_string(isr_activity_time) + ", ISR body\n";
-	current_time += isr_activity_time;
+	int isr_time = delays.at(duration_intr);
+	int step_1_time = isr_time*0.1;
+	int step_2_time = isr_time*0.6;
+	int step_3_time = isr_time*0.2;
+	int step_4_time = isr_time-(step_1_time+step_2_time+step_3_time);
+	
+	//new isr body steps... still needs improvement
+	//todo: reserach timeing for ISRs
+	
+	execution += std::to_string(current_time) + ", "+ std::to_string(step_1_time) + ", call device driver\n";
+	current_time += step_1_time;
+	
+	execution += std::to_string(current_time) + ", "+ std::to_string(step_2_time) + ", device I/O \n";
+	current_time += step_2_time;
+	
+	execution += std::to_string(current_time) + ", "+ std::to_string(step_3_time) + ", update OS tables and status \n";
+	current_time += step_3_time;
+	
+	execution += std::to_string(current_time) + ", "+ std::to_string(step_4_time) + ", schedule process \n";
+	current_time += step_4_time;
+	
+	
 	execution += std:: to_string(current_time)+ ", 1, IRET\n";
 	current_time++;
 	

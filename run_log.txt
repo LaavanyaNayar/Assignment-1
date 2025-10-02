@@ -2,7 +2,7 @@
 File content overwritten successfully.
 Output generated in execution.txt
 	 Expected: expected_output_files/expected_testcase_1.txt
-	 Correct: 100%
+	 Correct: 25%
 ----------------------------------------------------------------------------
 ---> Running test case:  input_files/trace_testcase_2.txt -> output_files/execution_testcase_2.txt
 File content overwritten successfully.
@@ -10,4 +10,4 @@ Output generated in execution.txt
 	 Expected: expected_output_files/expected_testcase_2.txt
 	 Correct: 100%
 ----------------------------------------------------------------------------
-==>> SUCCESS:  Overall correctness:  100%  across  2 cases. All test cases processed results in output_files
+==> !!WARNING:   Overall correctness:  62%  across  2  cases. All test cases processed results in output_files

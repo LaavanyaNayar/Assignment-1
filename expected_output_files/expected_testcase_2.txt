@@ -1,0 +1,3 @@
+0,50, CPU burst
+50,130, CPU burst
+180,300, CPU burst

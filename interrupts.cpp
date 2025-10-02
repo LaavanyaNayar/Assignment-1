@@ -39,6 +39,26 @@ int main(int argc, char** argv) {
 		// update time
 		current_time += duration_intr;
 	}
+	// SYSCALL Hamdler
+	else if (activity == "SYSCALL") {
+	
+	auto [exec_boiler, updated_time] = intr_boilerplate( current_time, duration_intr, context_save_time, vectors);
+	execution += exec_boiler;
+	current_time += updated_time;
+	
+	execution += std::to_string(current_time) + ", 1, obtain ISR address\n";
+	current_time++;
+	
+	// todo: add more steps for ISR BODY
+	execution+= std::to_string(current_time) +", " + std::to_string(isr_activity_time) + ", ISR body\n";
+	current_time += isr_activity_time;
+	execution += std:: to_string(current_time)+ ", 1, IRET\n" 	;
+	current_time++;
+	}
+	
+	
+	// 
+	
 	
 	
         /************************************************************************/

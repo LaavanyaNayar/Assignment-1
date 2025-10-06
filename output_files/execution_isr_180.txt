@@ -1,0 +1,153 @@
+0, 50, CPU burst
+50, 1, switch to kernel mode
+51, 10, context saved
+61, 1, find vector 2 in memory position 0x0004
+62, 1, load address 0X0695 into the PC
+63, 1, obtain ISR address
+64, 18, call device driver
+82, 108, device I/O 
+190, 36, update OS tables and status 
+226, 18, schedule process 
+244, 1, IRET
+245, 30, CPU burst
+275, 1, switch to kernel mode
+276, 10, context saved
+286, 1, find vector 2 in memory position 0x0004
+287, 1, load address 0X0695 into the PC
+288, 1, obtain ISR address
+289, 18, detect interrupt signal 
+307, 108, record I/O completion 
+415, 36, update OS tables and status 
+451, 18, schedule process 
+469, 1, IRET
+470, 40, CPU burst
+510, 1, switch to kernel mode
+511, 10, context saved
+521, 1, find vector 7 in memory position 0x000E
+522, 1, load address 0X00BD into the PC
+523, 1, obtain ISR address
+524, 18, call device driver
+542, 108, device I/O 
+650, 36, update OS tables and status 
+686, 18, schedule process 
+704, 1, IRET
+705, 20, CPU burst
+725, 1, switch to kernel mode
+726, 10, context saved
+736, 1, find vector 3 in memory position 0x0006
+737, 1, load address 0X042B into the PC
+738, 1, obtain ISR address
+739, 18, call device driver
+757, 108, device I/O 
+865, 36, update OS tables and status 
+901, 18, schedule process 
+919, 1, IRET
+920, 1, switch to kernel mode
+921, 10, context saved
+931, 1, find vector 7 in memory position 0x000E
+932, 1, load address 0X00BD into the PC
+933, 1, obtain ISR address
+934, 18, detect interrupt signal 
+952, 108, record I/O completion 
+1060, 36, update OS tables and status 
+1096, 18, schedule process 
+1114, 1, IRET
+1115, 60, CPU burst
+1175, 1, switch to kernel mode
+1176, 10, context saved
+1186, 1, find vector 3 in memory position 0x0006
+1187, 1, load address 0X042B into the PC
+1188, 1, obtain ISR address
+1189, 18, detect interrupt signal 
+1207, 108, record I/O completion 
+1315, 36, update OS tables and status 
+1351, 18, schedule process 
+1369, 1, IRET
+1370, 100, CPU burst
+1470, 1, switch to kernel mode
+1471, 10, context saved
+1481, 1, find vector 0 in memory position 0x0000
+1482, 1, load address 0X01E3 into the PC
+1483, 1, obtain ISR address
+1484, 18, call device driver
+1502, 108, device I/O 
+1610, 36, update OS tables and status 
+1646, 18, schedule process 
+1664, 1, IRET
+1665, 10, CPU burst
+1675, 1, switch to kernel mode
+1676, 10, context saved
+1686, 1, find vector 0 in memory position 0x0000
+1687, 1, load address 0X01E3 into the PC
+1688, 1, obtain ISR address
+1689, 18, detect interrupt signal 
+1707, 108, record I/O completion 
+1815, 36, update OS tables and status 
+1851, 18, schedule process 
+1869, 1, IRET
+1870, 80, CPU burst
+1950, 1, switch to kernel mode
+1951, 10, context saved
+1961, 1, find vector 5 in memory position 0x000A
+1962, 1, load address 0X048B into the PC
+1963, 1, obtain ISR address
+1964, 18, call device driver
+1982, 108, device I/O 
+2090, 36, update OS tables and status 
+2126, 18, schedule process 
+2144, 1, IRET
+2145, 25, CPU burst
+2170, 1, switch to kernel mode
+2171, 10, context saved
+2181, 1, find vector 1 in memory position 0x0002
+2182, 1, load address 0X029C into the PC
+2183, 1, obtain ISR address
+2184, 18, call device driver
+2202, 108, device I/O 
+2310, 36, update OS tables and status 
+2346, 18, schedule process 
+2364, 1, IRET
+2365, 1, switch to kernel mode
+2366, 10, context saved
+2376, 1, find vector 5 in memory position 0x000A
+2377, 1, load address 0X048B into the PC
+2378, 1, obtain ISR address
+2379, 18, detect interrupt signal 
+2397, 108, record I/O completion 
+2505, 36, update OS tables and status 
+2541, 18, schedule process 
+2559, 1, IRET
+2560, 40, CPU burst
+2600, 1, switch to kernel mode
+2601, 10, context saved
+2611, 1, find vector 1 in memory position 0x0002
+2612, 1, load address 0X029C into the PC
+2613, 1, obtain ISR address
+2614, 18, detect interrupt signal 
+2632, 108, record I/O completion 
+2740, 36, update OS tables and status 
+2776, 18, schedule process 
+2794, 1, IRET
+2795, 75, CPU burst
+2870, 1, switch to kernel mode
+2871, 10, context saved
+2881, 1, find vector 4 in memory position 0x0008
+2882, 1, load address 0X0292 into the PC
+2883, 1, obtain ISR address
+2884, 18, call device driver
+2902, 108, device I/O 
+3010, 36, update OS tables and status 
+3046, 18, schedule process 
+3064, 1, IRET
+3065, 15, CPU burst
+3080, 1, switch to kernel mode
+3081, 10, context saved
+3091, 1, find vector 4 in memory position 0x0008
+3092, 1, load address 0X0292 into the PC
+3093, 1, obtain ISR address
+3094, 18, detect interrupt signal 
+3112, 108, record I/O completion 
+3220, 36, update OS tables and status 
+3256, 18, schedule process 
+3274, 1, IRET
+3275, 60, CPU burst

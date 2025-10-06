@@ -1,8 +1,104 @@
+---> Running test case:  input_files/trace_testcase_10.txt -> output_files/execution_testcase_10.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_10.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_11.txt -> output_files/execution_testcase_11.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_11.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_12.txt -> output_files/execution_testcase_12.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_12.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_13.txt -> output_files/execution_testcase_13.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_13.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_14.txt -> output_files/execution_testcase_14.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_14.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_15.txt -> output_files/execution_testcase_15.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_15.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_16.txt -> output_files/execution_testcase_16.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_16.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_17.txt -> output_files/execution_testcase_17.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_17.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_18.txt -> output_files/execution_testcase_18.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_18.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_19.txt -> output_files/execution_testcase_19.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_19.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
 ---> Running test case:  input_files/trace_testcase_1.txt -> output_files/execution_testcase_1.txt
 File content overwritten successfully.
 Output generated in execution.txt
 	 Expected: expected_output_files/expected_testcase_1.txt
-	 Correct: -100%
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_20.txt -> output_files/execution_testcase_20.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_20.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_21.txt -> output_files/execution_testcase_21.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_21.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_22.txt -> output_files/execution_testcase_22.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_22.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_23.txt -> output_files/execution_testcase_23.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_23.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_24.txt -> output_files/execution_testcase_24.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_24.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_25.txt -> output_files/execution_testcase_25.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_25.txt
+	 Correct: 100%
 ----------------------------------------------------------------------------
 ---> Running test case:  input_files/trace_testcase_2.txt -> output_files/execution_testcase_2.txt
 File content overwritten successfully.
@@ -10,4 +106,46 @@ Output generated in execution.txt
 	 Expected: expected_output_files/expected_testcase_2.txt
 	 Correct: 100%
 ----------------------------------------------------------------------------
-==> !!WARNING:   Overall correctness:  0%  across  2  cases. All test cases processed results in output_files
+---> Running test case:  input_files/trace_testcase_3.txt -> output_files/execution_testcase_3.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_3.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_4.txt -> output_files/execution_testcase_4.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_4.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_5.txt -> output_files/execution_testcase_5.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_5.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_6.txt -> output_files/execution_testcase_6.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_6.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_7.txt -> output_files/execution_testcase_7.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_7.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_8.txt -> output_files/execution_testcase_8.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_8.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+---> Running test case:  input_files/trace_testcase_9.txt -> output_files/execution_testcase_9.txt
+File content overwritten successfully.
+Output generated in execution.txt
+	 Expected: expected_output_files/expected_testcase_9.txt
+	 Correct: 100%
+----------------------------------------------------------------------------
+==>> SUCCESS:  Overall correctness:  100%  across  25 cases. All test cases processed results in output_files

@@ -3,6 +3,19 @@
 51, 10, context saved
 61, 1, find vector 7 in memory position 0x000E
 62, 1, load address 0X00BD into the PC
-63, 1, obtain ISR address
-64, 40, ISR body
-104, 1, IRET
+63, 1, Obtain ISR address
+64, 15, call device driver
+79, 91, device I/O 
+170, 30, update OS tables and status 
+200, 16, schedule process 
+216, 1, IRET
+217, 1, switch to kernel mode
+218, 10, context saved
+228, 1, find vector 7 in memory position 0x000E
+229, 1, load address 0X00BD into the PC
+230, 1, obtain ISR address
+231, 15, detect interrupt signal 
+246, 91, record I/O completion 
+337, 30, update OS tables and status 
+367, 16, schedule process 
+383, 1, IRET
